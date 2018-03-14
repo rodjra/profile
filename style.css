@@ -100,3 +100,41 @@ table{
 #movies td{
   padding: 10px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+.sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
